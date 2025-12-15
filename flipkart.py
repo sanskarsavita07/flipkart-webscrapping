@@ -27,3 +27,4 @@ print("Smart Watches searched through automation")
 time.sleep(10)
 driver.quit()
 
+
