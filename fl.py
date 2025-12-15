@@ -27,7 +27,7 @@ driver = webdriver.Chrome(service=service)
 driver.maximize_window()
 
 # Go to Flipkart home page
-driver.get("https://www.flipkart.com/")
+driver.get("https://www.amazon.com/")
 print("Flipkart page loaded successfully.")
 print(f"Current URL: {driver.current_url}")  # Debug: Check if it redirected
 
