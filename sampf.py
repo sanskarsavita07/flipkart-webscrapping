@@ -19,7 +19,7 @@ driver.maximize_window()
 # -------------------------------
 # Open Flipkart
 # -------------------------------
-driver.get("https://www.flipkart.com/")
+driver.get("https://www.amazon.com/")
 print("Flipkart page loaded successfully.")
 time.sleep(3)
 
