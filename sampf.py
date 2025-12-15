@@ -19,7 +19,7 @@ driver.maximize_window()
 # -------------------------------
 # Open Flipkart
 # -------------------------------
-driver.get("https://www.flipkart.com/")
+driver.get("https://www.amazon.com/")
 print("Flipkart page loaded successfully.")
 time.sleep(3)
 
@@ -135,3 +135,4 @@ df = pd.DataFrame(data)
 df.to_csv("flipkart_smartwatches.csv", index=False, encoding='utf-8')
 print("\nScraping completed successfully!")
 print("Data saved in: flipkart_smartwatches.csv")
+

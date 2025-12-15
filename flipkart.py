@@ -11,7 +11,7 @@ service = Service(executable_path="chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 driver.maximize_window()
 
-driver.get("https://www.flipkart.com/")
+driver.get("https://www.amazon.com/")
 print("Flipkart page loaded successfully")
 time.sleep(5)
 
@@ -26,4 +26,5 @@ print("Smart Watches searched through automation")
 
 time.sleep(10)
 driver.quit()
+
 
